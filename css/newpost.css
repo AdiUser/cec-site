@@ -1,0 +1,8 @@
+input{
+    max-width : 780px;
+    min-height: 40px;
+    letter-spacing : 0.7px;
+}
+form{
+    margin-left : 255px;
+}

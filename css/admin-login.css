@@ -1,0 +1,36 @@
+body{
+    background-color: #ffffff;
+}
+.input-control:focus {
+    outline: none;
+}
+
+.input-control {
+    border: none;
+    height: 2em;
+    margin: 4px;
+    background-color: #ffffff;
+    font-size: 1.1em;
+    padding-left: 10px;
+    border-bottom: solid 2px;
+    border-bottom-color: #080854;
+}
+
+#head-text{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.outer-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 150px; 
+}
+.inner-wrapper{
+    border: solid 3.5px;
+    padding: 20px 20px 50px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-color : #0c86ce;
+}

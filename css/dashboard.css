@@ -1,0 +1,118 @@
+*{
+	font-family: 'Muli', sans-serif;
+}
+.navbar-default {border-top-width: 0px;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 3px -2px 11px 0px;
+    margin-top: 0px !important;
+    background-color: #2193ec;
+
+}
+.navbar{
+     min-height: 60px;
+     padding-top : 4px;
+}
+.li {
+    font-size : 2px !important;
+
+}
+.open > .dropdown-menu {
+    /* margin-top: 4.08em; */
+}
+
+.userinfo{
+    font-weight : 600;
+    letter-spacing : 0.8px;
+    color : #fff;
+    font-size : 15px;
+    float : right;
+    padding-top : 14px;
+    padding-right : 74px;
+}
+.userinfo:hover{
+    color: #fff;
+    cursor: pointer;
+    font-size: 15.1px;
+    text-decoration : none;
+}
+.dropdown-menu{
+    margin-top : 4.2em;
+    letter-spacing : .11px;
+    font-size: 15px; 
+    
+}
+#admin,#cec{
+    color : #fff;
+}
+#admin{
+    font-size : 35px;
+    letter-spacing : 5px;
+}
+#cec{
+    font-size : 29px;
+    letter-spacing : -2px;
+    margin-left : 8px;
+}
+th{
+    font-size : 20px;
+    letter-spacing : 2px;
+    text-transform : uppercase;
+}
+td{
+    font-size : 18px;
+}
+
+
+.left-section{
+    background-color : #f1f1f1;
+    padding : 50px 20px 20px 10px ;
+    min-height: 100vh;
+    overflow-y : auto;
+    margin-top : -19px  !important;
+}
+#carousel_head{
+    font-size : 30px;
+    text-transform : uppercase;
+}
+#carousel_text{
+    font-size : 15px;
+    letter-spacing : 0.2px;
+    margin-top : -3px;
+}
+#carousel_small{
+    margin-top: -5px;
+}
+label{
+    margin-top : 10px;
+}
+.upload_btn{
+    margin-left : 3px;
+}
+.btnl{
+    margin-top: -10px;
+    min-width: 70px;
+    max-width: 150px;
+    width: 130px;
+}
+#new_post_text{
+    font-size : 19px;
+    margin-right : 14px;
+ }
+ #upload_res{
+     text-transform : uppercase;
+     font-size : 30px;
+ }
+ .uplaod_col{
+     max-width : 600px;
+     min-width : 500px;
+ }
+ .limit-width{
+     max-width : 300px;
+ }
+ #upload_btn{
+     margin-top: 10px; 
+ }
+.nav-pills > li{
+    font-size : 17px;
+}

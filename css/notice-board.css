@@ -1,0 +1,134 @@
+
+body{
+  /*background-color: beige;*/
+  background-color: rgb(245, 245, 245);
+  background-image:url("../img/pattern6.png");
+}
+a:hover{
+  text-decoration: none;
+}
+#notice_{
+    font-size: 24px;
+    text-transform : uppercase;
+    padding-top : 10px;
+    padding-left : 17px;
+
+}
+.notice_section{
+   display : flex;
+   flex-wrap : nowrap;
+   min-height: 55px;
+   
+   text-align: left;
+
+}
+.whole_notice{
+  margin-bottom: 25px;
+  min-height: 60px;
+}
+.date{
+  position: relative;
+  width: 75px;
+  font-family: Georgia, serif;
+  color: #312e2e;
+  margin: 0px;
+ }
+
+.day, .month, .year {
+  position: absolute;
+  }
+
+.day {
+  font-size: 35px;
+  top: 15px;
+  }
+
+.month {
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  }
+
+.year {
+  top: 19px;
+  right: 0;
+  font-size: 20px;
+  rotate: -90deg !important;
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   transform: rotate(-90deg);
+  }
+
+.notice_sec{
+  padding-left: 10px;
+}
+#notice_post{
+  font-size: 22px;
+  font-weight: bolder;
+}
+.row-my{
+  display:flex;
+  flex-wrap:nowrap;
+}
+.post_credits{
+  font-size: 12px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.upload_title{
+  margin-top: -27px;
+}
+
+@media only screen and (max-width: 600px){
+
+.date, .month{
+  padding-left:25px;
+}
+.year{
+  top: 22px;
+  left: -1px;
+}
+.notice_sec{
+    margin-left: 15px;
+  }
+
+#notice_{font-size: 19px;}
+.notice_section{
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  min-width: 90%;
+  }
+.notice_sec > a{
+  font-size: 18px !important;
+  font-weight: bolder;
+}
+
+.post_credits{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+}
+
+@media only screen and (max-width: 1200px){
+
+.year{
+     position : relative;
+     display: block;
+     rotate: 0deg !important;
+      -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+     transform: rotate(0deg);
+     padding-top : 28px;
+  }
+
+  }
+.middle_notice{
+  padding-left: 20%;
+}
